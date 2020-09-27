@@ -20,3 +20,11 @@ dice = Math.floor(Math.random() * 6) + 1;
 
 // Selects the first element that it finds
 document.querySelector('#current-' + activePlayer).textContent = dice;
+// document.querySelector('#current-' + activePlayer).innerHTML = '<em>' + dice + '</em>';
+
+//Obtain total score
+var x = document.querySelector('#score-0').textContent;
+console.log(x);
+
+//Hide dice at the beginning
+document.querySelector('.dice').style.display = 'none';
